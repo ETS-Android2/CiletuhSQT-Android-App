@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SqoutGeo</string>
+    <string name="slogan">Ayo kita jelajahi Geopark Indonesia!!!</string>
+    <string name="signin">SIGN IN</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+</resources>
