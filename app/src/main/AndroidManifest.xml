@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SqoutGeo">
         <activity
+            android:name=".TicketCheckOutAct"
+            android:exported="true" />
+        <activity
             android:name=".TicketDetailAct"
             android:exported="true" />
         <activity
