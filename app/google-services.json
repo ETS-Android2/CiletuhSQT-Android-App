@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941461489386",
+    "project_id": "sqout-ciletuh",
+    "storage_bucket": "sqout-ciletuh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941461489386:android:fac41cd84b7e3c6ce37993",
+        "android_client_info": {
+          "package_name": "com.example.sqoutgeo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941461489386-e3b7uhnm930i4r9go941judc2rgqqpek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQoHrkIfHYoK86_UuwrVWzAB4u1lg1h4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941461489386-e3b7uhnm930i4r9go941judc2rgqqpek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
