@@ -122,6 +122,7 @@
                 android:src="@drawable/ic_ticket_buy" />
 
             <LinearLayout
+                android:id="@+id/item_my_ticket"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
@@ -172,7 +173,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_view_ticket"
+        android:id="@+id/btn_edit_profile"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginStart="24dp"
@@ -189,7 +190,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Button
-        android:id="@+id/btn_my_dashboard"
+        android:id="@+id/btn_sign_out"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginTop="16dp"
@@ -205,7 +206,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_view_ticket"
+        app:layout_constraintTop_toBottomOf="@+id/btn_edit_profile"
         app:layout_constraintVertical_bias="0.052" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

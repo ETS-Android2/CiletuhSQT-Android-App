@@ -24,7 +24,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/mregular"
-        android:text="Beli Tiket"
+        android:text="Tiket Details"
         android:textAlignment="center"
         android:textColor="#FFF"
         android:textSize="24sp"
@@ -37,47 +37,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/bg_layout_white"
         android:orientation="vertical"
         android:paddingLeft="24dp"
-        android:paddingTop="30dp"
+        android:paddingTop="16dp"
         android:paddingRight="24dp"
-        android:paddingBottom="30dp"
+        android:paddingBottom="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/mregular"
-            android:text="Detail Tiket"
-            android:textColor="@color/blackPrimary"
-            android:textSize="20sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:fontFamily="@font/mlight"
-            android:text="Cek harga tiket"
-            android:textColor="@color/grayPrimary"
-            android:textSize="16sp" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/grayPrimary" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -116,98 +91,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="17dp"
                 android:orientation="horizontal">
-
-                <Button
-                    android:layout_width="25dp"
-                    android:layout_height="32dp"
-                    android:background="@drawable/tombolminus" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp"
-                    android:fontFamily="@font/mregular"
-                    android:text="2"
-                    android:textColor="@color/blackPrimary"
-                    android:textSize="18sp" />
-
-                <Button
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_marginTop="4dp"
-                    android:background="@drawable/tombolplus" />
+                    android:fontFamily="@font/mlight"
+                    android:text="2 tickets"
+                    android:textColor="@color/bluePrimary"
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/short_tos_ticket"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:fontFamily="@font/mlight"
-            android:lineSpacingExtra="8dp"
-            android:text="Anak yang berumur lebih dari 3 tahun wajib membeli tiket "
-            android:textColor="@color/grayPrimary"
-            android:textSize="18sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        android:background="@drawable/bg_layout_white"
-        android:orientation="vertical"
-        android:paddingLeft="24dp"
-        android:paddingTop="30dp"
-        android:paddingRight="24dp"
-        android:paddingBottom="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/mregular"
-            android:text="Pembayaran"
-            android:textColor="@color/blackPrimary"
-            android:textSize="20sp" />
-
-       <LinearLayout
-           android:orientation="horizontal"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content" >
-
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_marginTop="4dp"
-               android:fontFamily="@font/mlight"
-               android:text="E-Wallet saat ini :"
-               android:textColor="@color/grayPrimary"
-               android:textSize="16sp" />
-
-           <TextView
-               android:layout_marginLeft="10dp"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_marginTop="4dp"
-               android:fontFamily="@font/mmedium"
-               android:text="Rp 230000"
-               android:textColor="@color/bluePrimary"
-               android:textSize="16sp" />
-
-       </LinearLayout>
 
         <View
             android:layout_width="match_parent"
@@ -217,32 +116,87 @@
             android:background="@color/grayPrimary" />
 
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mregular"
+                android:text="Date"
+                android:textColor="@color/blackPrimary"
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/mlight"
-                android:text="Harga tiket :"
+                android:text="Jan 10 2022"
                 android:textColor="@color/grayPrimary"
                 android:textSize="16sp" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
             <TextView
-                android:layout_marginLeft="15dp"
-                android:textAlignment="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:fontFamily="@font/mmedium"
-                android:text="Rp 60000"
-                android:textColor="@color/GreenPrimary"
-                android:textSize="25sp" />
+                android:fontFamily="@font/mregular"
+                android:text="Time"
+                android:textColor="@color/blackPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/mlight"
+                android:text="09:00 to 12:00"
+                android:textColor="@color/grayPrimary"
+                android:textSize="16sp" />
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mregular"
+                android:text="Information"
+                android:textColor="@color/blackPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/mlight"
+                android:text="Anak yang berumuh lebih dari 3 tahun wajib membeli tiket untuk masuk"
+                android:textColor="@color/grayPrimary"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_barcode"
+            android:layout_width="222dp"
+            android:layout_height="52dp" />
 
     </LinearLayout>
 
@@ -254,11 +208,11 @@
         android:layout_marginEnd="32dp"
         android:background="@drawable/bg_btn_green_primary"
         android:fontFamily="@font/mmedium"
-        android:text="Bayar"
+        android:text="Refund now"
         android:textColor="#FFF"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <LinearLayout
         android:id="@+id/btn_back"
@@ -270,12 +224,12 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toStartOf="@+id/btn_buy_ticket"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" >
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" >
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="28dp"
-        android:src="@drawable/ic_back" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_back" />
 
     </LinearLayout>
 
