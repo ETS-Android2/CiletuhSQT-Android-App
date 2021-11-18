@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/drawable/bg_btn_plus_blue.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_home_screen.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_main.xml" value="0.10400000000000001" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_register_one.xml" value="0.1" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/drawable/bg_btn_blue_primary.xml" value="0.20833333333333334" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/drawable/bg_btn_white_primary.xml" value="0.20833333333333334" />
