@@ -91,7 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/mregular"
-            android:text="My Tickets"
+            android:text="My Hotel Order"
             android:textColor="@color/blackPrimary"
             android:textSize="20sp" />
 
@@ -100,7 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/mlight"
-            android:text="Jangan Takut untuk berjelajah"
+            android:text="Enjoy Your Staycation"
             android:textColor="@color/grayPrimary"
             android:textSize="16sp" />
 
@@ -134,7 +134,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/mregular"
-                    android:text="Taman bermain"
+                    android:text="Penginapan Ayu Ciletuh"
                     android:textColor="@color/blackPrimary"
                     android:textSize="16dp" />
 
