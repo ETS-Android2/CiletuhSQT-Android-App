@@ -5,13 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 public class HomeScreenAct extends AppCompatActivity {
 
     LinearLayout btn_ticket_aminities;
-    ImageView btn_to_profile;
+    Button btn_to_profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class HomeScreenAct extends AppCompatActivity {
         btn_to_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gotoprofile  = new Intent(HomeScreenAct.this,MyProfileAct.class);
+                Intent gotoprofile = new Intent(HomeScreenAct.this,MyProfileAct.class);
                 startActivity(gotoprofile);
             }
         });

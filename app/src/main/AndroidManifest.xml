@@ -31,18 +31,6 @@
             android:name=".HomeScreenAct"
             android:exported="true" />
         <activity
-            android:name=".SuccessRegisterAct"
-            android:exported="true" />
-        <activity
-            android:name=".RegisterTwoAct"
-            android:exported="true" />
-        <activity
-            android:name=".RegisterOneAct"
-            android:exported="true" />
-        <activity
-            android:name=".SignInAct"
-            android:exported="false" />
-        <activity
             android:name=".GetStartedAct"
             android:exported="false" />
         <activity

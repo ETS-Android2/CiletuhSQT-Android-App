@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 public class MyProfileAct extends AppCompatActivity {
 
     LinearLayout item_my_ticket;
-    Button btn_edit_profile;
+    Button btn_backtoHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,14 +27,7 @@ public class MyProfileAct extends AppCompatActivity {
             }
         });
 
-        btn_edit_profile = findViewById(R.id.btn_edit_profile);
-        btn_edit_profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent gotoeditprofile = new Intent (MyProfileAct.this,EditProfilAct.class);
-                startActivity ( gotoeditprofile );
-            }
-        });
+
 
     }
 }
