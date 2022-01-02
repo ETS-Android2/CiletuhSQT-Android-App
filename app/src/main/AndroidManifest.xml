@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SqoutGeo">
         <activity
+            android:name=".RecommendationFormAct"
+            android:exported="true" />
+        <activity
             android:name=".EditProfilAct"
             android:exported="true" />
         <activity
