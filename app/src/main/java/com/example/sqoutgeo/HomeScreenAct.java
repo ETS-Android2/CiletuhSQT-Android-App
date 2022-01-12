@@ -41,7 +41,7 @@ public class HomeScreenAct extends AppCompatActivity {
     }
 
     public void browser1(View view){
-        Intent browserIntent=new Intent(Intent.ACTION_VIEW,Uri.parse ( "https://storymaps.arcgis.com/stories/175df7ea77a74090965681bc3d0b8255" ));
+        Intent browserIntent=new Intent(Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/0uLLGj" ));
         startActivity ( browserIntent );
     }
 

@@ -141,7 +141,9 @@
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:src="@drawable/menus_hotel" />
+                            android:src="@drawable/menus_hotel"
+                            android:onClick="penginapan"
+                            />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -172,7 +174,9 @@
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:src="@drawable/menus_wisata" />
+                            android:src="@drawable/menus_wisata"
+                            android:onClick="wisata"
+                            />
 
                         <TextView
                             android:layout_width="wrap_content"
