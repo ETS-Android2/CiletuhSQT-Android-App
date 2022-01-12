@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SqoutGeo">
         <activity
-            android:name=".LocationListAct"
+            android:name=".WisataAct"
             android:exported="true" />
         <activity
             android:name=".RecommendationFormAct"
