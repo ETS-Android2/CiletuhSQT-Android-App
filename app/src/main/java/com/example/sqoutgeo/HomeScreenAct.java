@@ -44,4 +44,14 @@ public class HomeScreenAct extends AppCompatActivity {
         Intent browserIntent=new Intent(Intent.ACTION_VIEW,Uri.parse ( "https://storymaps.arcgis.com/stories/175df7ea77a74090965681bc3d0b8255" ));
         startActivity ( browserIntent );
     }
+
+    public void penginapan(View view){
+        Intent penginapanIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/ynaaK" ));
+        startActivity ( penginapanIntent );
+    }
+
+    public void wisata(View view){
+        Intent wisataIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/HyHa5" ));
+        startActivity ( wisataIntent );
+    }
 }
