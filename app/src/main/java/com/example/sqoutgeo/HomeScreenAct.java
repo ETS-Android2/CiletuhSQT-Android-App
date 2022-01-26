@@ -10,8 +10,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.esri.arcgisruntime.mapping.view.MapView;
+
 public class HomeScreenAct extends AppCompatActivity {
 
+    Button btn_peta;
     LinearLayout btn_ticket_aminities;
     Button btn_to_profile;
 
@@ -20,8 +23,17 @@ public class HomeScreenAct extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
+        btn_peta = findViewById(R.id.btn_peta);
         btn_ticket_aminities = findViewById(R.id.btn_ticket_aminities);
         btn_to_profile = findViewById(R.id.btn_to_profile);
+
+        btn_peta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoMapView = new Intent(HomeScreenAct.this,MapView.class);
+                startActivity(gotoMapView);
+            }
+        });
 
         btn_to_profile.setOnClickListener(new View.OnClickListener() {
             @Override
