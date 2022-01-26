@@ -21,7 +21,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataView
 
     private ArrayList<Wisata> arrayListWisata;
 
-    public WisataAdapter(WisataAct arrayListWisata) {
+    public WisataAdapter(ArrayList<Wisata> arrayListWisata) {
         this.arrayListWisata = arrayListWisata;
     }
 
