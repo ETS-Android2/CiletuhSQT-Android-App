@@ -20,10 +20,7 @@ import static androidx.appcompat.widget.AppCompatDrawableManager.get;
 public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataViewHolder>{
 
     private ArrayList<Wisata> arrayListWisata;
-
-    public WisataAdapter(ArrayList<Wisata> arrayListWisata) {
-        this.arrayListWisata = arrayListWisata;
-    }
+    
 
     @NonNull
     @Override
