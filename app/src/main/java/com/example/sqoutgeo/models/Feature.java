@@ -5,10 +5,20 @@ import java.io.Serializable;
 public class Feature implements Serializable {
     private String name;
     private String desc;
+    private String type;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public Feature(String name, String desc) {
         this.name = name;
         this.desc = desc;
+        this.type = type;
     }
 
     public String getName() {

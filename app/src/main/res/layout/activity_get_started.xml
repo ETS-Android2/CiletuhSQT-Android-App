@@ -54,7 +54,7 @@
 
 
     <Button
-        android:id="@+id/btn_new_account_create"
+        android:id="@+id/btn_to_home"
         android:layout_width="274dp"
         android:layout_height="55dp"
         android:background="@drawable/bg_btn_white_primary"

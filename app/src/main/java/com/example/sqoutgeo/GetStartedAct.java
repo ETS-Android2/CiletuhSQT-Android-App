@@ -9,20 +9,20 @@ import android.widget.Button;
 
 public class GetStartedAct extends AppCompatActivity {
 
-    Button btn_new_account_create;
+    Button btn_to_home;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_get_started );
 
-        btn_new_account_create = findViewById ( R.id.btn_new_account_create );
+        btn_to_home = findViewById(R.id.btn_to_home);
 
-        btn_new_account_create.setOnClickListener(new View.OnClickListener() {
+        btn_to_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gotoregisterone = new Intent (GetStartedAct.this,HomeScreenAct.class);
-                startActivity ( gotoregisterone );
+                Intent gotohome1 = new Intent(GetStartedAct.this,HomeScreenAct.class);
+                startActivity(gotohome1);
             }
         });
     }
