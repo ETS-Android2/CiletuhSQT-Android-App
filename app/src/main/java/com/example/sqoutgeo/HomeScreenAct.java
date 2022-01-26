@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 
 public class HomeScreenAct extends AppCompatActivity {
 
-    LinearLayout btn_ticket_aminities, btn_wisata;
+    LinearLayout btn_ticket_aminities, btn_wisata, btn_hotel;
     Button btn_to_profile;
 
     @Override
@@ -20,8 +20,12 @@ public class HomeScreenAct extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
+        Seeder.run();
+
         btn_ticket_aminities = findViewById(R.id.btn_ticket_aminities);
         btn_to_profile = findViewById(R.id.btn_to_profile);
+        btn_wisata = findViewById(R.id.btn_wisata);
+        btn_hotel = findViewById(R.id.btn_hotel);
 
         btn_to_profile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,17 +50,24 @@ public class HomeScreenAct extends AppCompatActivity {
                 startActivity(gotowisata);
             }
         });
+        btn_hotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotohotel = new Intent(HomeScreenAct.this , HotelAct.class);
+                startActivity(gotohotel);
+            }
+        });
     }
 
-    public void browser1(View view){
-        Intent browserIntent=new Intent(Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/0uLLGj" ));
-        startActivity ( browserIntent );
-    }
+//    public void browser1(View view){
+//        Intent browserIntent=new Intent(Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/0uLLGj" ));
+//        startActivity ( browserIntent );
+//    }
 
-    public void penginapan(View view){
-        Intent penginapanIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/ynaaK" ));
-        startActivity ( penginapanIntent );
-    }
+//    public void penginapan(View view){
+//        Intent penginapanIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/ynaaK" ));
+//        startActivity ( penginapanIntent );
+//    }
 
 //    public void wisata(View view){
 //        Intent wisataIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/HyHa5" ));

@@ -132,6 +132,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/btn_hotel"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -142,7 +143,6 @@
                             android:layout_width="64dp"
                             android:layout_height="64dp"
                             android:src="@drawable/menus_hotel"
-                            android:onClick="penginapan"
                             />
 
                         <TextView
@@ -176,7 +176,6 @@
                             android:layout_width="64dp"
                             android:layout_height="64dp"
                             android:src="@drawable/menus_wisata"
-                            android:onClick="wisata"
                             />
 
                         <TextView
