@@ -18,8 +18,6 @@ import java.util.ArrayList;
 import static androidx.appcompat.widget.AppCompatDrawableManager.get;
 
 public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataViewHolder>{
-    
-
 
     @NonNull
     @Override
