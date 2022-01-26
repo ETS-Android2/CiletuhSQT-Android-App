@@ -1,43 +1,46 @@
 package com.example.sqoutgeo.adapter;
 
-import android.content.Intent;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.sqoutgeo.R;
-import com.example.sqoutgeo.WisataAct;
-import com.example.sqoutgeo.models.Wisata;
+import com.example.sqoutgeo.models.Feature;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-import static androidx.appcompat.widget.AppCompatDrawableManager.get;
-
 public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataViewHolder>{
 
-    private ArrayList<Wisata> arrayListWisata;
+    private ArrayList<Feature> arrayListFeature;
+    private Context context;
 
-    public WisataAdapter(WisataAct arrayListWisata) {
-        this.arrayListWisata = arrayListWisata;
+    public WisataAdapter(Context context) {
+        this.arrayListFeature = new ArrayList<>();
+        this.context = context;
+    }
+
+
+    public void setFeature(ArrayList<Feature> arrayListFeature) {
+        this.arrayListFeature = arrayListFeature;
     }
 
     @NonNull
     @Override
     public WisataAdapter.WisataViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.wisata_item,parent , false);
-        return new WisataViewHolder(view);
+        return new WisataViewHolder(LayoutInflater.from(context).inflate(R.layout.wisata_item, parent, false));
     }
 
     @Override
-    public void onBindViewHolder(@NonNull WisataAdapter.WisataViewHolder holder, int position) {
-        final Wisata wisata = arrayListWisata.get(position);
+    public void onBindViewHolder(@NonNull WisataAdapter.WisataViewHolder holder, final int position) {
+        final Feature feature = arrayListFeature.get(position);
 
-        holder.tvwisata_name.setText(wisata.getName());
-        holder.tvwisata_desc.setText(wisata.getDesc());
+        holder.tv_name.setText(feature.getName());
+        holder.tv_desc.setText(feature.getDesc());
 
 //        holder.itemView.setOnClickListener(new View.OnClickListener() {
   //          @Override
@@ -49,16 +52,16 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataView
 
     @Override
     public int getItemCount() {
-        return arrayListWisata.size();
+        return arrayListFeature.size();
     }
 
     public class WisataViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tvwisata_name, tvwisata_desc;
+        TextView tv_name, tv_desc;
         public WisataViewHolder(@NonNull View itemView) {
             super(itemView);
-            tvwisata_name = itemView.findViewById(R.id.wisata_name);
-            tvwisata_desc = itemView.findViewById(R.id.wisata_desc);
+            tv_name = itemView.findViewById(R.id.wisata_name);
+            tv_desc = itemView.findViewById(R.id.wisata_desc);
         }
     }
 }

@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SqoutGeo">
         <activity
+            android:name=".FeatureDetail"
+            android:exported="true" />
+        <activity
+            android:name=".AminitiesAct"
+            android:exported="true" />
+        <activity
+            android:name=".HotelAct"
+            android:exported="true" />
+        <activity
             android:name=".WisataAct"
             android:exported="true" />
         <activity

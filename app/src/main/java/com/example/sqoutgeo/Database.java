@@ -6,13 +6,13 @@ import java.util.ArrayList;
 
 public class Database {
 
-    public static ArrayList<Feature> Features;
+    public static ArrayList<Feature> features;
     public static Database instance;
 
     public ArrayList<Feature> getFeatures(String query){
         ArrayList<Feature> result = new ArrayList<>();
 
-        for (Feature i: Features) {
+        for (Feature i: features) {
             if(i.getType().equals(query)) result.add(i);
         }
 
@@ -20,7 +20,7 @@ public class Database {
     }
 
     public Feature getFeature(String query){
-        for (Feature i: Features) {
+        for (Feature i: features) {
             if(i.getName().equals(query)) return i;
         }
 
@@ -35,7 +35,7 @@ public class Database {
     }
 
     private Database() {
-        Features = new ArrayList<>();
+        features = new ArrayList<>();
     }
 }
 
