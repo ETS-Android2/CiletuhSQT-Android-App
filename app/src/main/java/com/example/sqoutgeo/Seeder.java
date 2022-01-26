@@ -8,6 +8,10 @@ public class Seeder {
     public static void run() {
         db = Database.getInstance();
 
-        db.Features.add(new Feature("Hotel A", "Good"));
+        db.features.add(new Feature("Wisata A","Wisata Asri","Wisata"));
+
+        db.features.add(new Feature("Hotel A","Wisata Asri","Hotel"));
+
+
     }
 }
