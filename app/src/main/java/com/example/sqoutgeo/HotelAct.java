@@ -6,8 +6,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.example.sqoutgeo.adapter.WisataAdapter;
-
 public class HotelAct extends AppCompatActivity {
 
     RecyclerView rv_hotel;
