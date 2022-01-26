@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 
 public class HomeScreenAct extends AppCompatActivity {
 
-    LinearLayout btn_ticket_aminities;
+    LinearLayout btn_ticket_aminities, btn_wisata;
     Button btn_to_profile;
 
     @Override
@@ -38,6 +38,14 @@ public class HomeScreenAct extends AppCompatActivity {
                 startActivity(gotoaminitiesticket);
             }
         });
+
+        btn_wisata.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotowisata = new Intent(HomeScreenAct.this, WisataAct.class);
+                startActivity(gotowisata);
+            }
+        });
     }
 
     public void browser1(View view){
@@ -50,8 +58,8 @@ public class HomeScreenAct extends AppCompatActivity {
         startActivity ( penginapanIntent );
     }
 
-    public void wisata(View view){
-        Intent wisataIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/HyHa5" ));
-        startActivity ( wisataIntent );
-    }
+//    public void wisata(View view){
+//        Intent wisataIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/HyHa5" ));
+//        startActivity ( wisataIntent );
+//    }
 }
