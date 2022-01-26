@@ -1,6 +1,7 @@
 package com.example.sqoutgeo;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -20,6 +21,18 @@ public class WisataAct extends AppCompatActivity {
         setContentView(R.layout.activity_wisata);
         db = Database.getInstance();
 
+        rv_wisata = findViewById(R.id.rv_hotel);
+        rv_wisata.setLayoutManager(new GridLayoutManager(this,2));
+        adapter = new WisataAdapter(this);
+        rv_wisata.setAdapter(adapter);
 
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        adapter.setFeature(db.getFeatures("Wisata"));
+        adapter.notifyDataSetChanged();
     }
 }
