@@ -8,9 +8,11 @@ public class Seeder {
     public static void run() {
         db = Database.getInstance();
 
-        db.features.add(new Feature("Wisata A","Wisata Asri","Wisata"));
+       // db.features.add(new Feature("Wisata A","Wisata Asri","Wisata",));
 
-        db.features.add(new Feature("Hotel A","Wisata Asri","Hotel"));
+        db.features.add(new Feature("Pantai Muara Cipanarikan","Lokasi : Kecamatan Ciracap Kabupaten Sukabumi\n" +
+                "\n" +
+                "Pantai Muara  Cipanarikan memiliki pasir yang putih, sunset yang indah, ","Hotel", R.drawable.pantai_cipanarikan));
 
 
     }
