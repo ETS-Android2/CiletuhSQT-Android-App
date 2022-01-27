@@ -12,7 +12,9 @@ public class Seeder {
 
         db.features.add(new Feature("Pantai Muara Cipanarikan","Wisata", R.drawable.pantai_cipanarikan));
         db.features.add(new Feature("Pantai Cimaja","Wisata",R.drawable.pantai_cimaja));
-
+        db.features.add(new Feature("Pantai pangumbahan","Wisata",R.drawable.pantai_pangumbahan));
+        db.features.add(new Feature("Pantai palangpang","Wisata",R.drawable.pantai_palangpang));
+        db.features.add(new Feature("Pantai ujung genteng","Wisata",R.drawable.pantai_ujunggenteng));
 
         db.features.add(new Feature("Villa Batman By Asnap","Hotel",R.drawable.villa_batman));
         db.features.add(new Feature("Villa Dua Putri","Hotel",R.drawable.villa_duaputri));
