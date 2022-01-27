@@ -41,7 +41,6 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataView
         final Feature feature = arrayListFeature.get(position);
 
         holder.tv_name.setText(feature.getName());
-        holder.tv_desc.setText(feature.getDesc());
         holder.tv_image.setImageResource(arrayListFeature.get(position).getImage());
 
 //        holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -59,12 +58,11 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataView
 
     public class WisataViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tv_name, tv_desc;
+        TextView tv_name;
         ImageView tv_image;
         public WisataViewHolder(@NonNull View itemView) {
             super(itemView);
             tv_name = itemView.findViewById(R.id.wisata_name);
-            tv_desc = itemView.findViewById(R.id.wisata_desc);
             tv_image = itemView.findViewById(R.id.wisata_image);
         }
     }

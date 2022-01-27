@@ -17,14 +17,6 @@
         android:textStyle="bold" />
 
 
-    <TextView
-        android:id="@+id/wisata_desc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:padding="10dp"
-        android:text="Deskripsi" />
-
     <ImageView
         android:id="@+id/wisata_image"
         android:layout_width="wrap_content"
