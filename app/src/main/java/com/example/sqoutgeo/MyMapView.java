@@ -20,7 +20,7 @@ public class MyMapView extends AppCompatActivity {
         setContentView(R.layout.activity_map_view);
 
         MyMapView = findViewById(R.id.mapView);
-        MyMap = new ArcGISMap(Basemap.Type.OPEN_STREET_MAP,0.478467 , 37.803972, 7);
+        MyMap = new ArcGISMap(Basemap.Type.OPEN_STREET_MAP,-7.1829932 , 106.4609767, 14);
         MyMapView.setMap(MyMap);
 
     }

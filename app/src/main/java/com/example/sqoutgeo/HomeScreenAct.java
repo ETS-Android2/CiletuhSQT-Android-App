@@ -14,7 +14,7 @@ import com.esri.arcgisruntime.mapping.view.MapView;
 
 public class HomeScreenAct extends AppCompatActivity {
 
-    Button btn_peta;
+    LinearLayout btn_peta;
     LinearLayout btn_ticket_aminities;
     Button btn_to_profile;
 
@@ -30,7 +30,7 @@ public class HomeScreenAct extends AppCompatActivity {
         btn_peta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gotoMapView = new Intent(HomeScreenAct.this,MapView.class);
+                Intent gotoMapView = new Intent(HomeScreenAct.this,MyMapView.class);
                 startActivity(gotoMapView);
             }
         });
