@@ -21,8 +21,8 @@ public class WisataAct extends AppCompatActivity {
         setContentView(R.layout.activity_wisata);
         db = Database.getInstance();
 
-        rv_wisata = findViewById(R.id.rv_hotel);
-        rv_wisata.setLayoutManager(new GridLayoutManager(this,2));
+        rv_wisata = findViewById(R.id.rv_wisata);
+        rv_wisata.setLayoutManager(new GridLayoutManager(this,1));
         adapter = new WisataAdapter(this);
         rv_wisata.setAdapter(adapter);
 
