@@ -12,8 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="2"
         android:padding="10dp"
-        android:text="Nama Tempat"
+        android:text="Nama Tempat \n"
         android:textSize="8pt"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
 

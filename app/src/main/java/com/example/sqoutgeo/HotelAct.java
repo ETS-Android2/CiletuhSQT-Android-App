@@ -21,7 +21,7 @@ public class HotelAct extends AppCompatActivity {
         db = Database.getInstance();
 
         rv_hotel = findViewById(R.id.rv_hotel);
-        rv_hotel.setLayoutManager(new GridLayoutManager(this,2));
+        rv_hotel.setLayoutManager(new GridLayoutManager(this,1));
         adapter = new WisataAdapter(this);
         rv_hotel.setAdapter(adapter);
 
