@@ -64,10 +64,10 @@ public class HomeScreenAct extends AppCompatActivity {
 //        startActivity ( browserIntent );
 //    }
 
-//    public void penginapan(View view){
-//        Intent penginapanIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/ynaaK" ));
-//        startActivity ( penginapanIntent );
-//    }
+    //public void penginapan(View view){
+      //  Intent penginapanIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/ynaaK" ));
+       // startActivity ( penginapanIntent );
+    //}
 
 //    public void wisata(View view){
 //        Intent wisataIntent=new Intent (Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/HyHa5" ));

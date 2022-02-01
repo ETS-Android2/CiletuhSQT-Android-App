@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.sqoutgeo.adapter.WisataAdapter;
 
@@ -25,6 +28,14 @@ public class WisataAct extends AppCompatActivity {
         rv_wisata.setLayoutManager(new GridLayoutManager(this,1));
         adapter = new WisataAdapter(this);
         rv_wisata.setAdapter(adapter);
+
+
+//        public void wisata(View view){
+//        Intent wisataIntent=new Intent (Intent.ACTION_VIEW, Uri.parse ( "https://arcg.is/HyHa5" ));
+//        startActivity ( wisataIntent );
+//    }
+
+
 
 
     }

@@ -17,6 +17,7 @@
         android:layout_gravity="center_horizontal"
         android:textSize="36dp"
         android:textColor="@color/bluePrimary"
+        android:textStyle="bold"
         />
 
 
@@ -27,6 +28,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/moredetail"
+        android:padding="16dp"
+        android:textColor="@color/bluePrimary"
+        android:fontFamily="@font/mregular"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttontohubwisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_white_primary"
+        android:fontFamily="@font/mmedium"
+        android:text="HUB"
+        android:textColor="#B9B9B9"
+        android:textSize="20sp"
+        android:Clickable="wisata"
+
         />
 
 </LinearLayout>
