@@ -5,24 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
     android:background="@color/bgPrimary"
     tools:context=".WisataAct">
 
-    <LinearLayout
-        android:id="@+id/btn_back_wisata"
-        android:layout_width="48dp"
-        android:layout_height="40dp"
-        android:background="@drawable/bg_gradient_primary_blue"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="28dp"
-            android:src="@drawable/ic_back" />
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,16 +16,33 @@
         android:orientation="vertical"
         >
 
+
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rekomendasi Penginapan"
+            android:text="Rekomendasi Wisata"
             android:fontFamily="@font/roboto_bold"
             android:layout_gravity="center_horizontal"
             android:textSize="16sp"
             android:textColor="@color/fontColor"
             android:textStyle="italic"
+
             />
+        <LinearLayout
+            android:id="@+id/btn_back_wisata"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_gradient_primary_blue"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_back" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -50,15 +52,12 @@
         </LinearLayout>
 
 
-
-
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_wisata"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="406dp"
+            android:layout_height="629dp"
             android:layout_gravity="center_horizontal"
-            android:padding="10dp"
-            />
+            android:padding="10dp" />
     </LinearLayout>
 
     <LinearLayout
