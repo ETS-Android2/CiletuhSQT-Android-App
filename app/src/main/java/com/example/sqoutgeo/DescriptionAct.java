@@ -26,10 +26,8 @@ public class DescriptionAct extends AppCompatActivity {
 
         db = Database.getInstance();
         String itName = getIntent().getExtras().getString("feature_name");
-        String itDesc = getIntent().getExtras().getString("feature_desc");
 
         f = db.getFeature(itName);
-        f = db.getFeature(itDesc);
 
         ivimage.setImageResource(f.getImage());
         tvname.setText(f.getName());
