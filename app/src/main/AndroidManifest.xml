@@ -28,9 +28,6 @@
             android:name=".EditProfilAct"
             android:exported="true" />
         <activity
-            android:name=".MyProfileAct"
-            android:exported="false" />
-        <activity
             android:name=".SuccesBuyTicketAct"
             android:exported="true" />
         <activity

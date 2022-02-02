@@ -19,9 +19,9 @@
         <TextView
             android:id="@+id/wisata_name"
             android:layout_width="257dp"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:layout_weight="2"
-            android:padding="10dp"
+            android:padding="50dp"
             android:text="Nama Tempat \n"
             android:textColor="@color/fontColor"
             android:textSize="8pt"
@@ -30,13 +30,16 @@
 
         <ImageView
             android:id="@+id/wisata_image"
-            android:layout_width="273dp"
-            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="2"
             android:padding="10dp" />
 
+
+
     </LinearLayout>
+
 
 </androidx.cardview.widget.CardView>
 

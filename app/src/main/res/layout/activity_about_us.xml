@@ -244,6 +244,7 @@
                             android:layout_height="wrap_content"
                             android:ellipsize="end"
                             android:maxLines="1"
+                            android:textColor="@color/fontColor"
                             android:text="@string/name"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -269,8 +270,9 @@
                             android:ellipsize="end"
                             android:linksClickable="true"
                             android:maxLines="2"
+                            android:textColor="@color/fontColor"
                             android:fontFamily="@font/roboto_bold"
-                            android:text="Instagram : @arsyisul"
+                            android:text="BINUS UNIVERSITY"
                             android:textSize="12sp" />
 
 
@@ -397,6 +399,7 @@
                     android:gravity="center"
                     android:text="@string/about_this_app"
                     android:textSize="14sp"
+                    android:fontFamily="@font/roboto_bold"
                     android:background="@drawable/bg_gradient_primary_blue"
                     />
 
