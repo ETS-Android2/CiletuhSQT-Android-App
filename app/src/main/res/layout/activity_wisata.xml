@@ -6,49 +6,53 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#F0F0F0"
+    android:background="@color/bgPrimary"
     tools:context=".WisataAct">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="List"
-        android:fontFamily="@font/__mmedium"
-        android:layout_gravity="center_horizontal"
-        android:textSize="36dp"
-        android:textColor="@color/bluePrimary"
-        android:textStyle="bold"
-        />
+    <LinearLayout
+        android:id="@+id/btn_back"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_gradient_primary_blue"
+        android:gravity="center"
+        android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_back" />
 
+    </LinearLayout>
 
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_wisata"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        />
+        android:background="@drawable/bg_gradient_primary_blue"
+        android:orientation="vertical"
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/moredetail"
-        android:padding="16dp"
-        android:textColor="@color/bluePrimary"
-        android:fontFamily="@font/mregular"
-        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List Wisata"
+            android:fontFamily="@font/__mmedium"
+            android:layout_gravity="left"
+            android:textSize="16sp"
+            android:textColor="@color/fontColor"
+            android:textStyle="bold"
+            />
 
-    <Button
-        android:id="@+id/buttontohubwisata"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_btn_white_primary"
-        android:fontFamily="@font/mmedium"
-        android:text="HUB"
-        android:textColor="#B9B9B9"
-        android:textSize="20sp"
 
-        />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_wisata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+
 
 </LinearLayout>

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/drawable/bg_btn_plus_blue.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/drawable/bg_gradient_primary_blue.xml" value="0.1" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/drawable/bg_input2.xml" value="0.2462962962962963" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_aminities.xml" value="0.11778115501519756" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_attraction.xml" value="0.2421875" />
@@ -11,7 +12,7 @@
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_edit_profil.xml" value="0.2421875" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_feature_detail.xml" value="0.2421875" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_get_started.xml" value="0.20516304347826086" />
-        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_home_screen.xml" value="0.16" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_hotel.xml" value="0.2421875" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_location_list.xml" value="0.2421875" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_main.xml" value="0.10400000000000001" />
@@ -26,7 +27,7 @@
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_wisata.xml" value="0.176" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/description_item.xml" value="0.11778115501519756" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/hotel_item.xml" value="0.2421875" />
-        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/wisata_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/wisata_item.xml" value="0.2" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25833333333333336" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.24427083333333333" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/drawable/bg_btn_blue_primary.xml" value="0.20833333333333334" />

@@ -2,8 +2,11 @@ package com.example.sqoutgeo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.sqoutgeo.models.Feature;
@@ -23,6 +26,7 @@ public class DescriptionAct extends AppCompatActivity {
         ivimage = findViewById(R.id.iv_image);
         tvname = findViewById(R.id.tv_name);
         tvdesc = findViewById(R.id.tv_desc);
+
 
         db = Database.getInstance();
         String itName = getIntent().getExtras().getString("feature_name");

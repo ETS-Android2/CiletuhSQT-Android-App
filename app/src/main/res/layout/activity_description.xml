@@ -5,45 +5,57 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:background="#F0F0F0"
+    android:background="@color/bgPrimary"
     android:padding="16dp"
     android:orientation="vertical"
     tools:context=".DescriptionAct">
 
-    <ImageView
-        android:id="@+id/iv_image"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_gradient_primary_blue"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:adjustViewBounds="true"
-        android:maxHeight="200dp"
-        android:maxWidth="200dp"
-        android:src="@drawable/aa_bungsu"
-        app:layout_constraintStart_toStartOf="@+id/tv_name"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv_name"
-        android:layout_width="369dp"
-        android:layout_height="wrap_content"
-        android:text="Sample Name"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/iv_image" />
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bg_btn_white_primary"
+            android:maxHeight="200dp"
+            android:maxWidth="200dp"
+            android:src="@drawable/aa_bungsu"
+            app:layout_constraintStart_toStartOf="@+id/tv_name"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tv_desc"
-        android:layout_width="375dp"
-        android:layout_height="62dp"
-        android:text="Sample Desc"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:text="Sample Name"
+            android:background="@drawable/bg_btn_plus_blue"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/fontColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_image" />
 
-        />
+        <TextView
+            android:id="@+id/tv_desc"
+            android:background="@drawable/bg_btn_blue_primary"
+            android:layout_width="375dp"
+            android:layout_height="62dp"
+            android:text="Sample Desc"
+            android:textColor="@color/fontColor"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
 
 
 </LinearLayout>

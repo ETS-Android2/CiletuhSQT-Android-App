@@ -55,12 +55,6 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.WisataView
             }
         });
 
-//        holder.itemView.setOnClickListener(new View.OnClickListener() {
-  //          @Override
-    //        public void onClick(View v) {
-      //          Intent intent = new Intent(holder.itemView.getContext(), )
-        //    }
-        //});
     }
 
     @Override
