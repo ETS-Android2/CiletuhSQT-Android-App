@@ -266,7 +266,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="32dp"
                 android:fontFamily="@font/mregular"
-                android:text="Tips"
+                android:text="Smart Community ArcGIS Hub"
                 android:textColor="@color/blackPrimary"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -279,7 +279,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/mlight"
-                android:text="Learn it for many benefits"
+                android:text="Visit Our Hub Here"
                 android:textColor="@color/grayPrimary"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -301,18 +301,19 @@
                     android:layout_height="wrap_content" >
 
                     <ImageView
-                        android:src="@drawable/tips_banner"
+                        android:src="@drawable/ciletuh_hub"
                         android:layout_marginRight="24dp"
                         android:layout_width="227dp"
-                        android:layout_height="98dp" >
+                        android:layout_height="98dp"
+                        >
 
                     </ImageView>
 
                     <ImageView
-                        android:src="@drawable/tips_banner"
-                        android:layout_marginRight="24dp"
                         android:layout_width="227dp"
-                        android:layout_height="98dp" >
+                        android:layout_height="98dp"
+                        android:layout_marginRight="24dp"
+                        android:src="@drawable/tips_banner">
 
                     </ImageView>
 
