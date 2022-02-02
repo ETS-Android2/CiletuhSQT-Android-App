@@ -16,6 +16,18 @@
         android:orientation="vertical"
         >
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rekomendasi Hotel"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/fontColor"
+            android:textStyle="italic"
+            />
+
         <LinearLayout
             android:id="@+id/btn_back_hotel"
             android:layout_width="48dp"
@@ -33,16 +45,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rekomendasi Hotel"
-            android:fontFamily="@font/roboto_bold"
-            android:layout_gravity="center_horizontal"
-            android:textSize="16sp"
-            android:textColor="@color/fontColor"
-            android:textStyle="italic"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_bold"
             android:textColor="@color/fontColor"
             android:background="@drawable/bg_gradient_primary_blue"
@@ -52,6 +54,8 @@ yang menentukan keputusan untuk melakukan suatu perjalanan ke suatu destinasi pa
             android:textSize="13sp"
 
             />
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"
