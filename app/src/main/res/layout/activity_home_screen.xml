@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bgPrimary"
+    android:background="	#2d2e34"
     tools:context=".HomeScreenAct">
 
     <ScrollView
@@ -69,7 +69,7 @@
                 android:layout_marginEnd="24dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="92dp"
-                android:background="@drawable/bg_layout_white"
+                android:background="@color/darkmode"
                 android:orientation="vertical"
                 android:paddingBottom="30dp"
                 android:paddingLeft="24dp"
@@ -107,7 +107,7 @@
                             android:layout_marginTop="4dp"
                             android:fontFamily="@font/mregular"
                             android:text="Aminities"
-                            android:textColor="@color/blackPrimary"
+                            android:textColor="@color/fontColor"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -183,7 +183,7 @@
                             android:layout_marginTop="4dp"
                             android:fontFamily="@font/mregular"
                             android:text="Wisata"
-                            android:textColor="@color/blackPrimary"
+                            android:textColor="@color/fontColor"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -224,7 +224,7 @@
                             android:layout_marginTop="4dp"
                             android:fontFamily="@font/mregular"
                             android:text="Comingsoon"
-                            android:textColor="@color/blackPrimary"
+                            android:textColor="@color/fontColor"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -237,7 +237,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/mregular"
                     android:text="Main menus"
-                    android:textColor="@color/blackPrimary"
+                    android:textColor="@color/fontColor"
                     android:textSize="20sp" />
 
                 <TextView
@@ -246,7 +246,7 @@
                     android:layout_marginTop="4dp"
                     android:fontFamily="@font/mlight"
                     android:text="Explore"
-                    android:textColor="@color/grayPrimary"
+                    android:textColor="@color/fontColor"
                     android:textSize="16sp" />
 
                 <View
@@ -267,7 +267,7 @@
                 android:layout_marginTop="32dp"
                 android:fontFamily="@font/mregular"
                 android:text="Smart Community ArcGIS Hub"
-                android:textColor="@color/blackPrimary"
+                android:textColor="@color/fontColor"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
@@ -280,7 +280,7 @@
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/mlight"
                 android:text="Visit Our Hub Here"
-                android:textColor="@color/grayPrimary"
+                android:textColor="@color/fontColor"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5" />

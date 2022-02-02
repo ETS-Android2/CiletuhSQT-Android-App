@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@color/bgPrimary"
     tools:context=".WisataAct">
@@ -51,18 +51,26 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2d2e34"
+            >
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_wisata"
-            android:layout_width="406dp"
-            android:layout_height="629dp"
-            android:layout_gravity="center_horizontal"
-            android:padding="10dp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_wisata"
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp" />
+        </LinearLayout>
+
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:paddingTop="10dp"
         android:padding="10dp"
         android:background="@drawable/bg_gradient_primary_blue"

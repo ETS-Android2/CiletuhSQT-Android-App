@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/bgPrimary"
-    android:padding="16dp"
+    android:background="@color/darkmode"
     android:orientation="vertical"
     tools:context=".DescriptionAct">
 
@@ -18,7 +17,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <ImageView
@@ -63,9 +62,9 @@
 
         <TextView
             android:id="@+id/tv_name"
-            android:layout_width="390dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_btn_plus_blue"
+            android:background="#2d2e34"
             android:text="Sample Name"
             android:textAlignment="center"
             android:textColor="@color/fontColor"
@@ -79,7 +78,7 @@
             android:id="@+id/tv_desc"
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:background="@drawable/bg_btn_blue_primary"
+            android:background="#2d2e34"
             android:text="Sample Desc"
             android:textAlignment="center"
             android:textColor="@color/fontColor"
@@ -88,6 +87,47 @@
 
             />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="178dp"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_gradient_primary_blue"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/science_of_where"
+            android:layout_gravity="left"
+            android:background="@drawable/bg_gradient_primary_blue"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ciletuh"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+
+
 
 
 </LinearLayout>
