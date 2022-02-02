@@ -301,6 +301,7 @@
                     android:layout_height="wrap_content" >
 
                     <ImageView
+                        android:id="@+id/app_hub"
                         android:src="@drawable/ciletuh_hub"
                         android:layout_marginRight="24dp"
                         android:layout_width="227dp"
