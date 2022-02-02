@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SqoutGeo">
         <activity
+            android:name=".AboutUsAct"
+            android:exported="false" />
+        <activity
             android:name=".DescriptionAct"
             android:exported="false" />
         <activity
@@ -23,9 +26,6 @@
             android:exported="true" />
         <activity
             android:name=".EditProfilAct"
-            android:exported="true" />
-        <activity
-            android:name=".MyTicketDetailAct"
             android:exported="true" />
         <activity
             android:name=".MyProfileAct"

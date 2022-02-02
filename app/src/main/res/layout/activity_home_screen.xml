@@ -106,7 +106,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:fontFamily="@font/mregular"
-                            android:text="Aminities"
+                            android:text="About Us"
                             android:textColor="@color/fontColor"
                             android:textSize="16sp" />
 

@@ -12,4 +12,16 @@
     <string name="moredetail">Untuk Lebih Detailnya,Klik Button Dibawah ini</string>
     <string name="ciletuh">Geopark Ciletuh - Esri Indonesia - 2022</string>
 
+    <string name="name">Muhammad Arsyi Sulthoni</string>
+    <string name="about_this_app">About this APP.</string>
+    <string name="version_1_5">Version : 1.5</string>
+    <string name="licence">GPL v3</string>
+    <string name="share">Share  </string>
+    <string name="rate_us">Rate Us</string>
+    <string name="initiated_by">Initiated By</string>
+    <string name="initiator">Initiator</string>
+    <string name="about_initiator">About Initiator</string>
+    <string name="link">link</string>
+    <string name="tugas">Application Team</string>
+
 </resources>
