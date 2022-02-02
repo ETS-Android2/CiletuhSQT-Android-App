@@ -14,7 +14,7 @@ import com.example.sqoutgeo.models.Feature;
 public class DescriptionAct extends AppCompatActivity {
 
     Database db;
-    ImageView ivimage;
+    ImageView ivimage,ivimage2;
     TextView tvname , tvdesc;
     Feature f;
 
@@ -26,6 +26,7 @@ public class DescriptionAct extends AppCompatActivity {
         ivimage = findViewById(R.id.iv_image);
         tvname = findViewById(R.id.tv_name);
         tvdesc = findViewById(R.id.tv_desc);
+        ivimage2 = findViewById(R.id.iv_image2);
 
 
         db = Database.getInstance();
@@ -36,5 +37,6 @@ public class DescriptionAct extends AppCompatActivity {
         ivimage.setImageResource(f.getImage());
         tvname.setText(f.getName());
         tvdesc.setText(f.getDesc());
+        ivimage2.setImageResource(f.getImage());
     }
 }

@@ -5,14 +5,15 @@ import java.io.Serializable;
 public class Feature implements Serializable {
     private String name;
     private String type;
-    private int image;
+    private int image, image2;
     private String desc;
 
-    public Feature(String name, String type, Integer image, String desc) {
+    public Feature(String name, String type, Integer image, String desc, Integer image2) {
         this.name = name;
         this.type = type;
         this.image = image;
         this.desc = desc;
+        this.image2 = image2;
     }
 
 
@@ -46,6 +47,14 @@ public class Feature implements Serializable {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    public int getImage2() {
+        return image2;
+    }
+
+    public void setImage2(int image2) {
+        this.image2 = image2;
     }
 }
 
