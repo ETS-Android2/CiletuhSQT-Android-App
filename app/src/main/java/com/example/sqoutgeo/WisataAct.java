@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 
 import com.example.sqoutgeo.adapter.WisataAdapter;
 
@@ -16,6 +17,7 @@ public class WisataAct extends AppCompatActivity {
     RecyclerView rv_wisata;
     WisataAdapter adapter;
     Database db;
+    LinearLayout btnbackwisata;
 
 
     @Override
@@ -28,6 +30,17 @@ public class WisataAct extends AppCompatActivity {
         rv_wisata.setLayoutManager(new GridLayoutManager(this,1));
         adapter = new WisataAdapter(this);
         rv_wisata.setAdapter(adapter);
+
+        btnbackwisata = findViewById(R.id.btn_back_wisata);
+
+        btnbackwisata.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent backtomenufromwisata = new Intent(WisataAct.this,HomeScreenAct.class);
+                startActivity(backtomenufromwisata);
+            }
+        });
+
 
 
 //        public void wisata(View view){
