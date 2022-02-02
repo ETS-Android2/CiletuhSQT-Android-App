@@ -45,6 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:background="@color/darkmode"
                 android:orientation="vertical">
 
                 <ImageView
@@ -81,6 +82,7 @@
                         android:background="@drawable/bg_gradient_primary_blue"
                         android:drawablePadding="8dp"
                         android:gravity="center"
+                        android:textColor="@color/fontColor"
                         android:maxLines="1"
                         android:padding="10dp"
                         android:text="@string/rate_us"
@@ -97,6 +99,7 @@
                         android:drawablePadding="5dp"
                         android:gravity="center"
                         android:maxLines="1"
+                        android:textColor="@color/fontColor"
                         android:padding="10dp"
                         android:paddingEnd="13dp"
                         android:paddingStart="10dp"
@@ -154,6 +157,7 @@
                             android:ellipsize="end"
                             android:maxLines="1"
                             android:text="@string/name"
+                            android:textColor="@color/fontColor"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
@@ -165,6 +169,7 @@
                             android:fontFamily="@font/roboto_bold"
                             android:maxLines="7"
                             android:text="@string/tugas"
+                            android:textColor="@color/fontColor"
                             android:textSize="12sp" />
 
                         <TextView
@@ -174,6 +179,7 @@
                             android:layout_marginTop="3dp"
                             android:autoLink="web"
                             android:ellipsize="end"
+                            android:textColor="@color/fontColor"
                             android:linksClickable="true"
                             android:maxLines="2"
                             android:fontFamily="@font/roboto_bold"
@@ -191,6 +197,7 @@
                         android:layout_below="@+id/view_line_1"
                         android:layout_marginBottom="5dp"
                         android:layout_marginStart="5dp"
+                        android:textColor="@color/fontColor"
                         android:text="Powered By"
                         android:textSize="14sp" />
 
@@ -249,7 +256,9 @@
                             android:fontFamily="@font/roboto_bold"
                             android:maxLines="7"
                             android:text="@string/tugas"
-                            android:textSize="12sp" />
+                            android:textSize="12sp"
+                            android:textColor="@color/fontColor"
+                            />
 
                         <TextView
                             android:id="@+id/txt_powered_by_link2"
@@ -275,7 +284,7 @@
                         android:layout_below="@+id/view_line_2"
                         android:layout_marginBottom="5dp"
                         android:layout_marginStart="5dp"
-                        android:text="Powered By"
+                        android:text=""
                         android:textSize="14sp" />
 
 
