@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sqoutgeo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/geopark_logo"
@@ -9,6 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SqoutGeo">
+        <activity
+            android:name=".MyMapView"
+            android:exported="true" />
         <activity
             android:name=".StartQuiz"
             android:exported="false" />
@@ -52,7 +62,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
