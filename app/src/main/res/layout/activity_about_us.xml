@@ -25,20 +25,6 @@
             app:cardElevation="8dp"
             app:contentPadding="10dp">
 
-            <LinearLayout
-                android:id="@+id/btn_back"
-                android:layout_width="48dp"
-                android:layout_height="40dp"
-                android:background="@drawable/bg_layout_white"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="28dp"
-                    android:src="@drawable/ic_back" />
-
-            </LinearLayout>
 
 
             <LinearLayout
@@ -49,6 +35,16 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/btn_back"
+                    android:layout_width="30dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_back"
+                    android:background="@drawable/bg_gradient_primary_blue"
+                    />
+
+
+
+                <ImageView
                     android:id="@+id/img_app_logo"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
@@ -56,6 +52,8 @@
                     android:layout_marginBottom="10dp"
                     android:padding="5dp"
                     android:src="@drawable/geopark_logo" />
+
+
 
 
 
@@ -391,19 +389,6 @@
                 </RelativeLayout>
 
 
-                <TextView
-                    android:id="@+id/txt_app_about"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:gravity="center"
-                    android:text="@string/about_this_app"
-                    android:textSize="14sp"
-                    android:fontFamily="@font/roboto_bold"
-                    android:background="@drawable/bg_gradient_primary_blue"
-                    />
-
-
                 <Button
                     android:id="@+id/about_app"
                     android:layout_width="wrap_content"
@@ -416,9 +401,8 @@
                     android:textStyle="bold"
                     android:linksClickable="true"
                     android:maxLines="1"
-                    android:text="CLICK HERE"
-                    android:textSize="14sp" />
-
+                    android:text="MORE ABOUT OUR APPS"
+                    android:textSize="12sp" />
             </LinearLayout>
 
 
