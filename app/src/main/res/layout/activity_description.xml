@@ -86,6 +86,13 @@
             android:textStyle="bold"
 
             />
+        <Button
+            android:id="@+id/callnum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CALL NOW"
+            android:layout_gravity="center_horizontal"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -93,6 +100,8 @@
         android:layout_height="wrap_content"
         android:padding="178dp"
         >
+
+
 
     </LinearLayout>
 

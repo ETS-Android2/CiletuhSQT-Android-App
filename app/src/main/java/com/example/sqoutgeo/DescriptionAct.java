@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -16,6 +17,7 @@ public class DescriptionAct extends AppCompatActivity {
     Database db;
     ImageView ivimage,ivimage2;
     TextView tvname , tvdesc;
+    Button callnum;
     Feature f;
 
     @Override
@@ -27,6 +29,7 @@ public class DescriptionAct extends AppCompatActivity {
         tvname = findViewById(R.id.tv_name);
         tvdesc = findViewById(R.id.tv_desc);
         ivimage2 = findViewById(R.id.iv_image2);
+        callnum = findViewById(R.id.callnum);
 
 
         db = Database.getInstance();
