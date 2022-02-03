@@ -3,7 +3,7 @@ package com.example.sqoutgeo.models;
 public class QuizLibrary {
 
     private String mQuestions [] = {
-            "Apa nama hote yang terdekat dari lokasi Geopark Ciletuh ?",
+            "Apa nama hotel yang terdekat dari lokasi Geopark Ciletuh ?",
             "Pantai yang berlokasi di gunung batu yang memiliki pasir silika sebagai khasnya, ialah?",
             "Pantai indah yang berlokasi di desa cimaja yang memiliki pasir putih dan landai, sepi dan bersih,ialah?",
             "Ada berapa Penginapan indah yang dapat pengunjung nikmati di desa Balekambang By Nendi? "

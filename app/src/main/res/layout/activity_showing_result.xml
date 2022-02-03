@@ -1,9 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShowingResultAct">
+    android:background="@color/darkmode"
+    tools:context=".ShowingResultAct"
+    android:orientation="horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/darkmode"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:background="@drawable/bg_gradient_primary_blue"
+                android:maxHeight="200dp"
+                android:maxWidth="200dp"
+                android:src="@drawable/congrats"
+                android:padding="10dp"
+                app:layout_constraintStart_toStartOf="@+id/tv_name"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_image4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:background="@drawable/bg_gradient_primary_blue"
+                android:maxHeight="200dp"
+                android:maxWidth="200dp"
+                android:padding="10dp"
+                android:src="@drawable/geopark_logo"
+                app:layout_constraintStart_toStartOf="@+id/tv_name"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2d2e34"
+            android:text="Terimakasih sudah mengikuti Quiz dari kami / n Berikut Jawaban yang benarnya"
+            android:textAlignment="center"
+            android:textColor="@color/fontColor"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            
+        </LinearLayout>
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="#2d2e34"
+            android:text="Apa nama hotel yang terdekat dari lokasi Geopark Ciletuh ? \n Villa Batman By Asnap \n \n
+Pantai yang berlokasi di gunung batu yang memiliki pasir silika sebagai khasnya, ialah? \n Pantai Pangumbahan \n \n
+Pantai indah yang berlokasi di desa cimaja yang memiliki pasir putih dan landai, sepi dan bersih,ialah? \n Pantai Cimaja \n \n
+Ada berapa Penginapan indah yang dapat pengunjung nikmati di desa Balekambang By Nendi? \n 3 yaitu ada \n
+Balekambang Saung Kerek by Nendi \n Balekambang Cottage by Nendi \n Balekambang VIP by Nendi"
+            android:textAlignment="center"
+            android:textColor="@color/fontColor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back TO Homepage"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_gradient_primary_blue"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/science_of_where"
+                android:layout_gravity="left"
+                android:background="@drawable/bg_gradient_primary_blue"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ciletuh"
+                android:layout_gravity="bottom"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_bold"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

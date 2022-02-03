@@ -8,6 +8,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
+    android:background="@color/darkmode"
     android:orientation="vertical"
 
     tools:context=".QuizFormAct">
@@ -19,17 +20,20 @@
         android:layout_marginBottom="40dp">
 
         <TextView
+            android:id="@+id/score_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Score"
-            android:textSize="20sp"
             android:layout_alignParentLeft="true"
-            android:id="@+id/score_text"/>
+            android:textColor="@color/fontColor"
+            android:text="Score"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/score"
+            android:background="@color/darkmode"
+            android:textColor="@color/fontColor"
             android:layout_alignParentRight="true"
             android:text="0"
             android:textSize="20sp"/>
@@ -38,9 +42,10 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="200dp"
         android:text="Which thing is alive?"
         android:textSize="20sp"
+        android:textColor="@color/fontColor"
         android:padding="8dp"
         android:layout_marginBottom="40dp"
         android:id="@+id/question"/>
@@ -50,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="bird"
-        android:background="#0091EA"
+        android:background="@drawable/bg_gradient_primary_blue"
         android:textColor="#fff"
         android:padding="8dp"
         android:layout_marginBottom="24dp"
@@ -76,14 +81,21 @@
         android:layout_marginBottom="24dp"
         android:id="@+id/choice3"/>
 
-    <Button
+    <LinearLayout
+        android:padding="30dp"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="quit"
-        android:background="#B71C1C"
-        android:textColor="#fff"
-        android:padding="8dp"
         android:layout_marginBottom="24dp"
-        android:id="@+id/quit"/>
+        android:background="#B71C1C"
+        android:padding="8dp"
+        android:text="quit"
+        android:textColor="#fff" />
 
 </LinearLayout>

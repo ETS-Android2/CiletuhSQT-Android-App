@@ -1,5 +1,6 @@
 package com.example.sqoutgeo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -48,10 +49,10 @@ public class QuizFormAct extends AppCompatActivity {
                     updateScore(mScore);
                     updateQuestion();
                     //This line of code is optiona
-                    Toast.makeText(QuizFormAct.this, "correct", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizFormAct.this, "Jawaban Betul +10 Poin", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(QuizFormAct.this, "wrong", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizFormAct.this, "Jawaban Salah -10 Poin", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -70,10 +71,10 @@ public class QuizFormAct extends AppCompatActivity {
                     updateScore(mScore);
                     updateQuestion();
                     //This line of code is optiona
-                    Toast.makeText(QuizFormAct.this, "Betul", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizFormAct.this, "Jawaban Betul +10 Poin", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(QuizFormAct.this, "Salah", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizFormAct.this, "Jawaban Salah -10 Poin", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -93,12 +94,14 @@ public class QuizFormAct extends AppCompatActivity {
                     updateScore(mScore);
                     updateQuestion();
                     //This line of code is optiona
-                    Toast.makeText(QuizFormAct.this, "correct", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizFormAct.this, "Jawaban Betul +10 Poin", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(QuizFormAct.this, "wrong", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizFormAct.this, "Jawaban Salah -10 Poin", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
+                Intent gotoresult = new Intent(QuizFormAct.this,ShowingResultAct.class);
+                startActivity(gotoresult);
             }
         });
 
@@ -121,7 +124,7 @@ public class QuizFormAct extends AppCompatActivity {
     }
 
 
-    private void updateScore(int point) {
+    public void updateScore(int point) {
         mScoreView.setText("" + mScore);
     }
 }
