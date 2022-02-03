@@ -57,7 +57,7 @@
         android:id="@+id/btn_to_home"
         android:layout_width="274dp"
         android:layout_height="55dp"
-        android:background="@drawable/bg_btn_white_primary"
+        android:background="@drawable/bg_gradient_primary_blue"
         android:fontFamily="@font/mmedium"
         android:text="Ayo Mulai!"
         android:textColor="#B9B9B9"

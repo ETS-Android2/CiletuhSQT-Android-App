@@ -20,8 +20,10 @@
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_my_profile.xml" value="0.2421875" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_my_ticket_detail.xml" value="0.2421875" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_order_form.xml" value="0.2421875" />
+        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_quiz_form.xml" value="0.16259057971014493" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_recommendation_form.xml" value="0.2421875" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_register_one.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_start_quiz.xml" value="0.2" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_succes_buy_ticket.xml" value="0.2421875" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_ticket_check_out.xml" value="0.4" />
         <entry key="..\:/AndroidProject/CiletuhSQT-WIP-/app/src/main/res/layout/activity_ticket_detail.xml" value="0.228125" />
@@ -44,13 +46,10 @@
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_home_screen.xml" value="0.33" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_my_profile.xml" value="0.22" />
-        <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_order_form.xml" value="0.1921875" />
-        <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_recommendation_form.xml" value="0.1921875" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_register_one.xml" value="0.1921875" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_succes_buy_ticket.xml" value="0.1921875" />
         <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_ticket_check_out.xml" value="0.1921875" />
-        <entry key="..\:/ESRI_Geopark_Android_APP/app/src/main/res/layout/activity_ticket_detail.xml" value="0.1921875" />
         <entry key="..\:/Users/Arbi/Documents/GitHub/NewGEOPark/CiletuhSQT-WIP-/app/src/main/res/drawable/bg_btn_blue_primary.xml" value="0.24074074074074073" />
         <entry key="..\:/Users/Arbi/Documents/GitHub/NewGEOPark/CiletuhSQT-WIP-/app/src/main/res/drawable/bg_btn_green_primary.xml" value="0.24074074074074073" />
         <entry key="..\:/Users/Arbi/Documents/GitHub/NewGEOPark/CiletuhSQT-WIP-/app/src/main/res/layout/activity_edit_profil.xml" value="0.27291666666666664" />

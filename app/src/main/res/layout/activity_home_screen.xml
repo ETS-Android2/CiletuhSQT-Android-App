@@ -19,6 +19,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -48,6 +50,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/view" />
+
 
 
             <LinearLayout
@@ -244,6 +247,20 @@
                     android:layout_marginTop="16dp"
                     android:background="@color/grayPrimary" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/quiz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_gradient_primary_blue"
+                        android:text="Take Your Quiz" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <TextView
@@ -308,7 +325,10 @@
 
                 </LinearLayout>
 
+
+
             </HorizontalScrollView>
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
