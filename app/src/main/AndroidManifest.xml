@@ -37,9 +37,6 @@
             android:name=".EditProfilAct"
             android:exported="true" />
         <activity
-            android:name=".TicketDetailAct"
-            android:exported="true" />
-        <activity
             android:name=".HomeScreenAct"
             android:exported="true" />
         <activity

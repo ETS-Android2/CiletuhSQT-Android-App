@@ -33,7 +33,7 @@ public class HomeScreenAct extends AppCompatActivity {
         btn_ticket_aminities.setOnClickListener ( new View.OnClickListener () {
             @Override
             public void onClick(View v) {
-                Intent gotoaminitiesticket = new Intent ( HomeScreenAct.this, TicketDetailAct.class );
+                Intent gotoaminitiesticket = new Intent ( HomeScreenAct.this, AboutUsAct.class );
                 startActivity ( gotoaminitiesticket );
             }
         } );
