@@ -25,7 +25,6 @@ public class ShowingResultAct extends AppCompatActivity {
         mScoreView = (TextView)findViewById(R.id.score_text);
 
         backtohomepage = findViewById(R.id.button_homepage);
-        final MediaPlayer mp = MediaPlayer.create(this, R.raw.applause);
 
         backtohomepage.setOnClickListener(new View.OnClickListener() {
             @Override
