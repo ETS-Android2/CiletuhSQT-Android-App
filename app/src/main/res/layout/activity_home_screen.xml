@@ -249,13 +249,13 @@
                     android:background="@color/grayPrimary" />
 
                 <LinearLayout
+                    android:id="@+id/quiz"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
 
                     <Button
-                        android:id="@+id/quiz"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/bg_gradient_primary_blue"
