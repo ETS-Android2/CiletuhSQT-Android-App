@@ -15,6 +15,7 @@ public class HomeScreenAct extends AppCompatActivity {
     LinearLayout btn_ticket_aminities, btn_wisata, btn_hotel;
     Button btn_to_profile;
     ImageView app_hub;
+    ImageView peta_sm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class HomeScreenAct extends AppCompatActivity {
         btn_hotel = findViewById ( R.id.btn_hotel );
 
         app_hub = findViewById ( R.id.app_hub );
+        peta_sm = findViewById ( R.id.peta_sm );
 
         btn_to_profile.setOnClickListener ( new View.OnClickListener () {
             @Override
@@ -68,6 +70,12 @@ public class HomeScreenAct extends AppCompatActivity {
             }
         } );
 
+        peta_sm.setOnClickListener ( new View.OnClickListener () {
+            @Override
+            public void onClick(View view) {
+                gotoUrl ( "https://smartcommunity.maps.arcgis.com/home/item.html?id=785fbc66322c44ffb36ae6f24038c50d" );
+            }
+        } );
 
 //    public void browser1(View view){
 //        Intent browserIntent=new Intent(Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/0uLLGj" ));
