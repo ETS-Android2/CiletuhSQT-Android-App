@@ -89,7 +89,7 @@
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:src="@drawable/menus_aminities"
+                            android:src="@drawable/menus_about_us"
                             />
 
                         <TextView
@@ -214,7 +214,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:fontFamily="@font/mregular"
-                            android:text="Peta"
+                            android:text="Peta[Beta]"
                             android:textColor="@color/fontColor"
                             android:textSize="16sp" />
 
