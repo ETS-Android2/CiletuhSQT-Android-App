@@ -225,7 +225,7 @@
                         android:layout_below="@+id/txt_powered_by_title2"
                         android:layout_marginEnd="5dp"
                         android:padding="5dp"
-                        android:src="@drawable/dev" />
+                        android:src="@drawable/download" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -243,7 +243,7 @@
                             android:ellipsize="end"
                             android:maxLines="1"
                             android:textColor="@color/fontColor"
-                            android:text="@string/name"
+                            android:text="Arta Bina Purba Girsang"
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
