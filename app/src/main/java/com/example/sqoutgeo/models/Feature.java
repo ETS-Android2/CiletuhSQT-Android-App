@@ -7,7 +7,6 @@ public class Feature implements Serializable {
     private String type;
     private int image, image2;
     private String desc;
-    private String category;
 
     public Feature(String name, String type, Integer image, String desc, Integer image2, String category) {
         this.name = name;
@@ -15,7 +14,6 @@ public class Feature implements Serializable {
         this.image = image;
         this.desc = desc;
         this.image2 = image2;
-        this.category = category;
     }
 
 
@@ -59,12 +57,5 @@ public class Feature implements Serializable {
         this.image2 = image2;
     }
 
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
 }
 
