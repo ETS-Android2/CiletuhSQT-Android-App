@@ -57,6 +57,14 @@
 
         </LinearLayout>
 
+        <Button
+            android:id="@+id/callnum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CALL NOW"
+            android:layout_gravity="center_horizontal"
+            />
+
 
 
 
@@ -86,28 +94,11 @@
             android:textStyle="bold"
 
             />
-        <Button
-            android:id="@+id/callnum"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="CALL NOW"
-            android:layout_gravity="center_horizontal"
-            />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="178dp"
-        >
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:paddingTop="10dp"
         android:padding="10dp"
         android:background="@drawable/bg_gradient_primary_blue"
