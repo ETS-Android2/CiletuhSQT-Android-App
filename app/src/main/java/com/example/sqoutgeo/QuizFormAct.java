@@ -100,13 +100,13 @@ public class QuizFormAct extends AppCompatActivity {
                     Toast.makeText(QuizFormAct.this, "Jawaban Salah -10 Poin", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
-                Intent gotoresult = new Intent(QuizFormAct.this,ShowingResultAct.class);
-                startActivity(gotoresult);
             }
         });
 
         //End of Button Listener for Button3
 
+//        Intent gotoresult = new Intent(QuizFormAct.this,ShowingResultAct.class);
+//        startActivity(gotoresult);
 
 
 
