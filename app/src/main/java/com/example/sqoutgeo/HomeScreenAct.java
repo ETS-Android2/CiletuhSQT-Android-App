@@ -65,9 +65,11 @@ public class HomeScreenAct extends AppCompatActivity {
         peta_sm.setOnClickListener ( new View.OnClickListener () {
             @Override
             public void onClick(View view) {
-                gotoUrl ( "https://smartcommunity.maps.arcgis.com/home/item.html?id=785fbc66322c44ffb36ae6f24038c50d" );
+                 Intent gotoMapView = new Intent(HomeScreenAct.this, MyMapView.class);
+                 startActivity(gotoMapView);
             }
         } );
+
         quiz.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
