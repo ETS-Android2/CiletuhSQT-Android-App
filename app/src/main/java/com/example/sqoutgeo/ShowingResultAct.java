@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 public class ShowingResultAct extends AppCompatActivity {
     TextView mScoreView;
-    String score;
     Button backtohomepage;
     QuizFormAct qf;
 
@@ -33,6 +32,8 @@ public class ShowingResultAct extends AppCompatActivity {
                 startActivity(backtohomepage);
             }
         });
+
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.applause);
 
 
 
