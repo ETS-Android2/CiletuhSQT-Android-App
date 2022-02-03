@@ -3,6 +3,7 @@ package com.example.sqoutgeo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -30,6 +31,15 @@ public class DescriptionAct extends AppCompatActivity {
         tvdesc = findViewById(R.id.tv_desc);
         ivimage2 = findViewById(R.id.iv_image2);
         callnum = findViewById(R.id.callnum);
+
+        //callnum.setOnClickListener(new View.OnClickListener() {
+           // @Override
+           // public void onClick(View view) {
+               // Intent call = new Intent(Intent.ACTION_CALL);
+              //  call.setData(Uri.parse(uri));
+               // startActivity(call);
+           // }
+      //  });
 
 
         db = Database.getInstance();
