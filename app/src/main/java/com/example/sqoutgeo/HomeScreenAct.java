@@ -15,6 +15,7 @@ public class HomeScreenAct extends AppCompatActivity {
     LinearLayout btn_ticket_aminities, btn_wisata, btn_hotel;
     ImageView app_hub;
     ImageView peta_sm;
+    Button quiz;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class HomeScreenAct extends AppCompatActivity {
 
         app_hub = findViewById ( R.id.app_hub );
         peta_sm = findViewById ( R.id.peta_sm );
+        quiz = findViewById(R.id.quiz);
 
         btn_ticket_aminities.setOnClickListener ( new View.OnClickListener () {
             @Override
@@ -66,6 +68,13 @@ public class HomeScreenAct extends AppCompatActivity {
                 gotoUrl ( "https://smartcommunity.maps.arcgis.com/home/item.html?id=785fbc66322c44ffb36ae6f24038c50d" );
             }
         } );
+        quiz.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoquiz = new Intent(HomeScreenAct.this,StartQuiz.class);
+                startActivity(gotoquiz);
+            }
+        }));
 
 //    public void browser1(View view){
 //        Intent browserIntent=new Intent(Intent.ACTION_VIEW,Uri.parse ( "https://arcg.is/0uLLGj" ));
