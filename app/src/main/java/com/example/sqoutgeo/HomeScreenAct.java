@@ -13,7 +13,6 @@ import android.widget.LinearLayout;
 public class HomeScreenAct extends AppCompatActivity {
 
     LinearLayout btn_ticket_aminities, btn_wisata, btn_hotel;
-    Button btn_to_profile;
     ImageView app_hub;
     ImageView peta_sm;
 
@@ -25,20 +24,11 @@ public class HomeScreenAct extends AppCompatActivity {
         Seeder.run ();
 
         btn_ticket_aminities = findViewById ( R.id.btn_ticket_aminities );
-//        btn_to_profile = findViewById ( R.id.btn_to_profile );
         btn_wisata = findViewById ( R.id.btn_wisata );
         btn_hotel = findViewById ( R.id.btn_hotel );
 
         app_hub = findViewById ( R.id.app_hub );
         peta_sm = findViewById ( R.id.peta_sm );
-
-//        btn_to_profile.setOnClickListener ( new View.OnClickListener () {
-//            @Override
-//            public void onClick(View v) {
-//                Intent gotoprofile = new Intent ( HomeScreenAct.this, MyProfileAct.class );
-//                startActivity ( gotoprofile );
-//            }
-//        } );
 
         btn_ticket_aminities.setOnClickListener ( new View.OnClickListener () {
             @Override
