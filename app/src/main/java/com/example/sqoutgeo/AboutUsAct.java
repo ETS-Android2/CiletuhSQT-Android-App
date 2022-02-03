@@ -7,10 +7,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
 
 public class AboutUsAct extends AppCompatActivity {
-    LinearLayout btn_back;
+    ImageView btn_back;
     Button aboutus;
 
     @Override

@@ -75,7 +75,7 @@ yang menentukan keputusan untuk melakukan suatu perjalanan ke suatu destinasi pa
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_hotel"
                 android:layout_width="match_parent"
-                android:layout_height="535dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:padding="5dp"
                 />
