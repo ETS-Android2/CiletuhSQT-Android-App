@@ -94,12 +94,6 @@ Balekambang Saung Kerek by Nendi \n Balekambang Cottage by Nendi \n Balekambang 
 
             />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="60dp">
-
-        </LinearLayout>
-
         <Button
             android:id="@+id/button_homepage"
             android:layout_width="wrap_content"
