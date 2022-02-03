@@ -6,19 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".StartQuiz">
 
-    <ScrollView
-        android:scrollbars="none"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-     <ImageView
+    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="210dp"
@@ -28,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-     <TextView
+    <TextView
         android:id="@+id/tittle_ticket"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +31,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
-        <TextView
+    <TextView
         android:id="@+id/location_ticket"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,7 +46,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/tittle_ticket" />
 
-      <LinearLayout
+    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -230,10 +218,10 @@
             android:textColor="@color/grayPrimary"
             android:textSize="18sp" />
 
-        </LinearLayout>
+    </LinearLayout>
 
 
-     <Button
+    <Button
         android:id="@+id/start_quiz"
         android:layout_width="220dp"
         android:layout_height="55dp"
@@ -247,7 +235,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
-        <LinearLayout
+    <LinearLayout
         android:id="@+id/btn_back_fromquiz"
         android:layout_width="90dp"
         android:layout_height="55dp"
@@ -264,8 +252,6 @@
             android:layout_height="28dp"
             android:src="@drawable/ic_back" />
 
-        </LinearLayout>
-
-    </ScrollView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
