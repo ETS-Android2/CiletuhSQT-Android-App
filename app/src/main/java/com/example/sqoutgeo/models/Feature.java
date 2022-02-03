@@ -8,7 +8,7 @@ public class Feature implements Serializable {
     private int image, image2;
     private String desc;
 
-    public Feature(String name, String type, Integer image, String desc, Integer image2, String category) {
+    public Feature(String name, String type, Integer image, String desc, Integer image2) {
         this.name = name;
         this.type = type;
         this.image = image;
