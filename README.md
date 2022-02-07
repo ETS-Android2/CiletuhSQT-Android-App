@@ -11,4 +11,8 @@ education we got will always be useful for us. Thank you very much for ESRI Indo
 chance to be in the program, joining the MOOC Program, and patiently mentoring us through out the entire program.
 
 This project act as an intern project in ESRI Indonesia Fellowship Program✨
-The members of the group are Myself(Ald7ee), Arsyi Sulthoni(Arsyi-sul10), Arta Bina Purba(Arbi29), Jose Anugrah 
+The members of the group are: 
+🎯Myself(Ald7ee)
+🎹Arsyi Sulthoni(Arsyi-sul10)
+🎮Arta Bina Purba(Arbi29)
+🥋Jose Anugrah 
