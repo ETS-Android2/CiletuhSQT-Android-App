@@ -12,7 +12,7 @@ chance to be in the program, joining the MOOC Program, and patiently mentoring u
 
 This project act as an intern project in ESRI Indonesia Fellowship Program✨
 The members of the group are: 
-🎯Myself(Ald7ee)
+🎯Aldri Immanuel Ramos Ritonga(Ald7ee)
 🎹Arsyi Sulthoni(Arsyi-sul10)
 🎮Arta Bina Purba(Arbi29)
-🥋Jose Anugrah 
+🥋Jose Anugrah (joseanugrah)
